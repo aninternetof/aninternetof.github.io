@@ -1,0 +1,100 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 6.581em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4.388em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 2.925em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #76608a
+}
+
+h4 {
+  font-size: 1.95em;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 1.3em;
+  font-weight:
+}
+
+p {
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+.p2 {
+  font-size: 0.867em;
+  color: #d80073;
+  font-syle: italic;
+}
+
+small {
+  font-size: 0.667em;
+  color: #647687;
+  white-space:nowrap;
+}
+
+.social-link {
+  color: rgb(200,200,200);
+  font-size: 2.925em;
+}
+
+.fa-github:hover {
+  color: #008a00;
+}
+
+.fa-twitter:hover {
+  color: #008a00;
+}
+
+.fa-envelope:hover {
+  color: #008a00;
+}
+
+.row > [class*='col-'] {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid{
+    max-width: 90%;
+    margin-top: 40px;
+  }
+}
+
+.nice-underlines a {
+  text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
+  background-image: linear-gradient(#008a00, #008a00);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 95%;
+  color: #008a00;
+  text-decoration: none; }
+  .nice-underlines a::selection {
+    text-shadow: 0.03em 0 #CBF, -0.03em 0 #CBF, 0 0.03em #CBF, 0 -0.03em #CBF, 0.06em 0 #CBF, -0.06em 0 #CBF, 0.09em 0 #CBF, -0.09em 0 #CBF, 0.12em 0 #CBF, -0.12em 0 #CBF, 0.15em 0 #CBF, -0.15em 0 #CBF;
+    background: #CBF; }
+    .nice-underlines a::-moz-selection {
+      text-shadow: 0.03em 0 #CBF, -0.03em 0 #CBF, 0 0.03em #CBF, 0 -0.03em #CBF, 0.06em 0 #CBF, -0.06em 0 #CBF, 0.09em 0 #CBF, -0.09em 0 #CBF, 0.12em 0 #CBF, -0.12em 0 #CBF, 0.15em 0 #CBF, -0.15em 0 #CBF;
+      background: #CBF; }
+      .nice-underlines a *,
+      .nice-underlines a *:after, .nice-underlines a:after,
+      .nice-underlines a *:before, .nice-underlines a:before {
+        text-shadow: none; }
+        .nice-underlines a:visited {
+          color: #008a00; }
