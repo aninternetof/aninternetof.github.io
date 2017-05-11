@@ -3,49 +3,51 @@ body {
 }
 
 h1 {
-  font-size: 6.581em;
+  font-size: 3.473em;
   font-weight: 800;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 h2 {
-  font-size: 4.388em;
+  font-size: 2.605em;
   font-weight: 800;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h3 {
-  font-size: 2.925em;
+  font-size: 1.955em;
   font-weight: 800;
   text-transform: uppercase;
   font-style: italic;
-  color: #76608a
+  color: #76608a;
+  margin-bottom: 0;
 }
 
 h4 {
-  font-size: 1.95em;
+  font-size: 1.466em;
   font-weight: 800;
 }
 
 h5 {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight:
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-bottom: 0.3em;
 }
 
 .p2 {
-  font-size: 0.867em;
+  font-size: 0.825em;
   color: #d80073;
   font-syle: italic;
 }
 
 small {
-  font-size: 0.667em;
+  font-size: 0.733em;
   color: #647687;
   white-space:nowrap;
 }
@@ -68,7 +70,7 @@ small {
 }
 
 .row > [class*='col-'] {
-  margin-bottom: 1em;
+  margin-bottom: 1.6em;
 }
 
 @media (min-width: 1200px) {
