@@ -58,15 +58,15 @@ small {
 }
 
 .fa-github:hover {
-  color: #008a00;
+  color: #1ba1e2;
 }
 
 .fa-twitter:hover {
-  color: #008a00;
+  color: #1ba1e2;
 }
 
 .fa-envelope:hover {
-  color: #008a00;
+  color: #1ba1e2;
 }
 
 .row > [class*='col-'] {
@@ -80,13 +80,24 @@ small {
   }
 }
 
+.rectangle {
+  display: inline-block;
+  width: 15px;
+  height: 42px;
+  -webkit-transform: skew(-12deg);
+  -moz-transform: skew(-12deg);
+  -o-transform: skew(-12deg);
+  background: red;
+  margin-left: -10px;
+}
+
 .nice-underlines a {
   text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
-  background-image: linear-gradient(#008a00, #008a00);
+  background-image: linear-gradient(#1ba1e2, #1ba1e2);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #008a00;
+  color: #1ba1e2;
   text-decoration: none; }
   .nice-underlines a::selection {
     text-shadow: 0.03em 0 #CBF, -0.03em 0 #CBF, 0 0.03em #CBF, 0 -0.03em #CBF, 0.06em 0 #CBF, -0.06em 0 #CBF, 0.09em 0 #CBF, -0.09em 0 #CBF, 0.12em 0 #CBF, -0.12em 0 #CBF, 0.15em 0 #CBF, -0.15em 0 #CBF;
@@ -99,4 +110,4 @@ small {
       .nice-underlines a *:before, .nice-underlines a:before {
         text-shadow: none; }
         .nice-underlines a:visited {
-          color: #008a00; }
+          color: #1ba1e2; }
