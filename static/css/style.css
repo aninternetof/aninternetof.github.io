@@ -1,114 +1,43 @@
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #222522;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px 30px 30px;
+}
+
+@media screen and (min-width: 800px) and (min-height: 800px) {
+  .container {
+    margin-top: 10vh;
+  }
 }
 
 h1 {
-  font-size: 3.473em;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-h2 {
-  font-size: 2.605em;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-h3 {
-  font-size: 1.955em;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-style: italic;
-  color: #76608a;
-  margin-bottom: 0;
-}
-
-h4 {
-  font-size: 1.466em;
-  font-weight: 800;
-}
-
-h5 {
-  font-size: 1.1em;
-  font-weight:
+  font-size: 2.475em;
+  color: #73B4C9;
+  margin-bottom: 0.3em;
+  text-align: center;
 }
 
 p {
   font-size: 1.1em;
+  color: white;
   margin-bottom: 0.3em;
+  text-align: center;
 }
 
-.p2 {
-  font-size: 0.825em;
-  color: #d80073;
-  font-syle: italic;
+a {
+  color: #c0c0c0;
 }
 
-small {
-  font-size: 0.733em;
-  color: #647687;
-  white-space:nowrap;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  max-width: 90%;
 }
-
-.social-link {
-  color: #d3d9de;
-  font-size: 2.925em;
-}
-
-.fa-github:hover {
-  color: #1ba1e2;
-}
-
-.fa-twitter:hover {
-  color: #1ba1e2;
-}
-
-.fa-envelope:hover {
-  color: #1ba1e2;
-}
-
-.row > [class*='col-'] {
-  margin-bottom: 1.6em;
-}
-
-@media (min-width: 1200px) {
-  .container-fluid{
-    max-width: 90%;
-    margin-top: 40px;
-  }
-}
-
-.rectangle {
-  display: inline-block;
-  width: 5%;
-  height: 42px;
-  -webkit-transform: skew(-12deg);
-  -moz-transform: skew(-12deg);
-  -o-transform: skew(-12deg);
-  background: red;
-  margin-left: 1%;
-  margin-top: 10px;
-}
-
-.nice-underlines a {
-  text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
-  background-image: linear-gradient(#1ba1e2, #1ba1e2);
-  background-size: 1px 1px;
-  background-repeat: repeat-x;
-  background-position: 0% 95%;
-  color: #1ba1e2;
-  text-decoration: none; }
-  .nice-underlines a::selection {
-    text-shadow: 0.03em 0 #CBF, -0.03em 0 #CBF, 0 0.03em #CBF, 0 -0.03em #CBF, 0.06em 0 #CBF, -0.06em 0 #CBF, 0.09em 0 #CBF, -0.09em 0 #CBF, 0.12em 0 #CBF, -0.12em 0 #CBF, 0.15em 0 #CBF, -0.15em 0 #CBF;
-    background: #CBF; }
-    .nice-underlines a::-moz-selection {
-      text-shadow: 0.03em 0 #CBF, -0.03em 0 #CBF, 0 0.03em #CBF, 0 -0.03em #CBF, 0.06em 0 #CBF, -0.06em 0 #CBF, 0.09em 0 #CBF, -0.09em 0 #CBF, 0.12em 0 #CBF, -0.12em 0 #CBF, 0.15em 0 #CBF, -0.15em 0 #CBF;
-      background: #CBF; }
-      .nice-underlines a *,
-      .nice-underlines a *:after, .nice-underlines a:after,
-      .nice-underlines a *:before, .nice-underlines a:before {
-        text-shadow: none; }
-        .nice-underlines a:visited {
-          color: #1ba1e2; }
